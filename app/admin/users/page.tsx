@@ -16,7 +16,8 @@ const page = () => {
   return (
     <>
       <AdminHeader></AdminHeader>
-      <div className="w-full max-w-4xl mx-auto pt-4">
+      <div className="w-full max-w-4xl mx-auto pt-4 flex justify-between">
+        <h1 className="text-3xl">User Table</h1>
         <UserPopUp></UserPopUp>
       </div>
       <div className="flex justify-center items-center mt-6 px-4 sm:px-6 lg:px-8">
@@ -37,7 +38,6 @@ const page = () => {
                 <TableCell>test@test.com</TableCell>
               </TableRow>
             </TableBody>
-            {/* <TableCaption>A list of users</TableCaption> */}
           </Table>
         </div>
       </div>
